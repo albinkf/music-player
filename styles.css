@@ -20,7 +20,7 @@ h1 {
 }
 
 .music-container {
-  background: #ffffff;
+  background: #e8d0e9;
   border-radius: 50px;
   box-shadow: 0 20px 20px rgba(13, 33, 50, 0.6);
   display: flex;
@@ -36,13 +36,13 @@ h1 {
 
 .img-container img {
   width: 120px;
-  height: 110px;
-  border-radius: 50%;
+  height: 120px;
+  border-radius: 75%;
   object-fit: cover;
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: rotate 2s linear infinite;
+  animation: rotate 3s linear infinite;
   animation-play-state: paused;
 }
 
@@ -84,7 +84,7 @@ h1 {
 }
 
 .progress {
-  background: #6b0d25;
+  background: #583840;
   height: 100%;
   width: 0%;
   border-radius: 5px;
@@ -99,10 +99,10 @@ h1 {
 }
 
 .action-btn {
-  background: #dbbebe;
+  background: #caa5bd;
   border: none;
   color: #6a1c6a;
-  font-size: 20px;
+  font-size: 60px;
   padding: 10px;
   margin: 0 20px;
   cursor: pointer;
@@ -114,14 +114,19 @@ h1 {
 }
 
 ul {
-  list-style-type: none; /* Removes the default bullets */
-  padding-left: 30px; /* Provides space for the custom bullet */
+  justify-content: left;
+  list-style-type: none; 
+  padding-left: 1px
+ 
+  ; 
+   
 }
 
 ul li {
   background-image: url('/music-player/images/musicsymbol.png'); 
   background-repeat: no-repeat;
-  background-size: 16px 16px; /* Adjusts the size of the bullet image */
-  background-position: 0 50%; /* Centers the bullet vertically */
-  padding-left: 20px; /* Space between the custom bullet and the text */
+  background-size:16px 16px;
+  background-position: 0 50%; 
+  padding-left: 20px; 
+
 }
