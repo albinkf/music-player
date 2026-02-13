@@ -8,6 +8,11 @@ const progress = document.getElementById('progress');
 const progressContainer = document.getElementById('progress-container');
 const title = document.getElementById('title');
 const cover = document.getElementById('cover');
+///const playlist = document.getElementById('playlist');
+
+// 2. Get the audio player element and playlist container
+const audioPlayer = document.getElementById('audioPlayer');
+const playlistElement = document.getElementById('playlist');
 
 
 //songs

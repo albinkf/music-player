@@ -11,7 +11,6 @@
 <body>
 
   <h1>Music Player</h1>
-
   <div class="music-container" id="music-container">
     <div class="music-info">
       <h4 id="title"></h4>
@@ -19,8 +18,8 @@
         <div class="progress" id="progress"></div>
       </div>
     </div>
-
     <audio id="audio" src="music/happy.mp3"></audio>
+
 
     <div class="img-container">
       <img src="images/happy.JPEG" alt="Album Cover" id="cover" />
@@ -32,5 +31,15 @@
       <button id="next" class="action-btn"><i class="fas fa-forward"></i></button>
     </div>
   </div>
+  <!-- attemping to add playlist -->
+    <ul class= "playlist">
+       
+        <li data-src="music/happy.mp3">happy</li>
+       
+        <li data-src="cool/song2.mp3">cool</li>
+      
+        <li data-src="medieval/song3.mp3">medieval</li>
+    </ul>
 </body>
 </html>
+

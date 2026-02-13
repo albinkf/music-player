@@ -112,3 +112,16 @@ h1 {
   font-size: 30px;
   color: #451554;
 }
+
+ul {
+  list-style-type: none; /* Removes the default bullets */
+  padding-left: 30px; /* Provides space for the custom bullet */
+}
+
+ul li {
+  background-image: url('/music-player/images/musicsymbol.png'); 
+  background-repeat: no-repeat;
+  background-size: 16px 16px; /* Adjusts the size of the bullet image */
+  background-position: 0 50%; /* Centers the bullet vertically */
+  padding-left: 20px; /* Space between the custom bullet and the text */
+}
