@@ -88,14 +88,17 @@ document.addEventListener('keydown', (event) => {
   if (event.key === "ArrowRight") {
     nextSong()
   }
-  if (event.key === "ArrowLeft"){
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key === "ArrowLeft") {
     prevSong()
   }
+});
+document.addEventListener('keydown', (event) => {
   if (event.key === " ") {
-  const isPlaying = musicContainer.classList.contains('play');
+    const isPlaying = musicContainer.classList.contains('play');
   isPlaying ? pauseSong() : playSong();
   }
 });
-
 
 
