@@ -12,7 +12,7 @@ const cover = document.getElementById('cover');
 
 //songs
 const songs = ['happy', 'cool', 'medieval'];
-let songIndex = 2;
+let songIndex = 0;
 
 function loadSong(song) {
     title.innerText = song;
@@ -78,3 +78,17 @@ progressContainer.addEventListener('click', setProgress);
 
 //auto-play next song on end
 audio.addEventListener('ended', nextSong);
+
+//keyboard controls
+document.addEventListener('keydown', (event) => {
+  if (event.key === "ArrowRight") {
+    nextSong()
+  }
+  if (event.key === "ArrowLeft"){
+    prevSong()
+  }
+  if (event.key === " ") {
+  const isPlaying = musicContainer.classList.contains('play');
+  isPlaying ? pauseSong() : playSong();
+  }
+});
