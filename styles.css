@@ -7,7 +7,7 @@
 body {
   background: linear-gradient(0deg, #f7f7f7 24%, #fcdddd 92%);
   font-family: 'Lato', sans-serif;
-  margin: 0;
+  margin: 10px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ h1 {
 }
 
 .progress {
-  background: #fe8daa;
+  background: #592834;
   height: 100%;
   width: 0%;
   border-radius: 5px;
