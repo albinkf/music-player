@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(0deg, #f7f7f7 24%, #fcdddd 92%);
-  font-family: 'Lato', sans-serif;
-  margin: 10px;
+  background: linear-gradient(0deg, #5d2a77 24%, #d69cc2 92%);
+  font-family: 'Zain', sans-serif;
+  margin: 0px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,33 +16,33 @@ body {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .music-container {
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 20px 20px rgba(252, 169, 169, 0.6);
+  background: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0 20px 20px rgba(13, 33, 50, 0.6);
   display: flex;
   align-items: center;
-  padding: 20px 30px;
+  padding: 10px 10px;
   position: relative;
 }
 
 .img-container {
-  width: 110px;
+  width: 120px;
   position: relative;
 }
 
 .img-container img {
-  width: 110px;
+  width: 120px;
   height: 110px;
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: rotate 3s linear infinite;
+  animation: rotate 2s linear infinite;
   animation-play-state: paused;
 }
 
@@ -57,7 +57,7 @@ h1 {
 
 .music-info {
   background: rgba(255, 255, 255, 0.5);
-  border-radius: 15px 15px 0 0;
+  border-radius: 20px 15px 0 0;
   position: absolute;
   top: 0;
   left: 20px;
@@ -75,7 +75,7 @@ h1 {
 }
 
 .progress-container {
-  background: #fff;
+  background: #8a80b9;
   height: 4px;
   width: 100%;
   border-radius: 5px;
@@ -84,7 +84,7 @@ h1 {
 }
 
 .progress {
-  background: #592834;
+  background: #6b0d25;
   height: 100%;
   width: 0%;
   border-radius: 5px;
@@ -99,9 +99,9 @@ h1 {
 }
 
 .action-btn {
-  background: #fff;
+  background: #dbbebe;
   border: none;
-  color: #dfdbdf;
+  color: #6a1c6a;
   font-size: 20px;
   padding: 10px;
   margin: 0 20px;
@@ -110,5 +110,5 @@ h1 {
 
 .action-btn-big {
   font-size: 30px;
-  color: #cdc2d0;
+  color: #451554;
 }
